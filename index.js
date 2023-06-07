@@ -29,7 +29,7 @@ const invalidState = document.getElementById('invalid-state');
 const state = document.getElementById('state');
 const zip = document.getElementById('zip');
 const btn = document.getElementById('btn-send');
-const btns = document.getElementById9('btn')
+const btns = document.getElementById('btn')
 let formLicenseValid = false
 let formStateValid = false
 
@@ -67,6 +67,7 @@ function validBtnSubmit() {
 }
 
 function OnClickBtn(){
+    console.log('clicou')
     btns.style.color = '#1773cf'
 }
 
