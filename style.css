@@ -171,7 +171,13 @@
     color: red;
     display: none;
 }
-.btn-send{
+
+.btn-send {
     width: 100%;
-    height: ;
+    height: 50px;
+    text-align: center;
+    border: none;
+    outline: none;
+    background-color: coral;
+    border-radius: 10px;
 }
