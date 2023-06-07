@@ -28,7 +28,8 @@ const invalidLicense = document.getElementById('invalid-license');
 const invalidState = document.getElementById('invalid-state');
 const state = document.getElementById('state');
 const zip = document.getElementById('zip');
-const btn = document.getElementById('btn-send')
+const btn = document.getElementById('btn-send');
+const btns = document.getElementById9('btn')
 let formLicenseValid = false
 let formStateValid = false
 
@@ -65,5 +66,10 @@ function validBtnSubmit() {
     }
 }
 
+function OnClickBtn(){
+    btns.style.color = '#1773cf'
+}
+
 license.addEventListener('change', validLicenseInput)
 state.addEventListener('change', validStateInput)
+btns.addEventListener('click', OnClickBtn)
